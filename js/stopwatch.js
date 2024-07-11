@@ -26,7 +26,7 @@ playPause.addEventListener('click',function(){
             }
 
             timer.innerText=`${hour.toString().padStart(2,'0')}:${minute.toString().padStart(2,'0')}:${second.toString().padStart(2,'0')}`;
-        },1000);
+        },999);
         running=true;
         playPause.innerHTML='<i class="fa-solid fa-pause"></i>';
     }

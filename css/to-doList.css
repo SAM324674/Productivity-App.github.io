@@ -1,0 +1,103 @@
+.ToDo-container{
+    
+    width: 45%;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding:2%;
+    gap:5%;
+
+}
+#task-modify{
+    width:90%;
+    height:95%;
+    overflow-y:scroll;
+    scrollbar-width: none;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding:1.5%;
+}
+#task-modify li{
+    padding: 1.5%;
+    
+}
+
+
+.ToDo-text{
+    border:1px solid white;
+    width:90%;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255,0.8);
+    padding:1.5%;
+    color:black;
+    
+}
+
+.ToDo-task{
+    border:1px solid white;
+    width:100%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255,0.8);
+    padding:10%;
+    color:black;
+}
+.ToDo-task .span-div{
+    max-width:60%;
+    height:90%;
+    display: flex;
+    flex-wrap:wrap;
+    /* align-items: center; */
+    border: 1px solid black;
+}
+
+.ToDo-text .text-area{
+    background-color: rgb(255, 255, 255,0.1);
+    outline: none;
+    border: none;
+    width:80%;
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    /* border: 1px solid black; */
+    gap:20%;
+}
+.ToDo-btn{
+    padding:5%;
+    background-color: rgba(38, 13, 77);
+   /* backdrop-filter: blur(10px); */
+   color:rgb(179, 155, 210);
+   cursor: pointer;
+   box-shadow:   -4px 0 0 0 black,
+   4px 0 0 0 black,
+   0 -4px 0 0 black,
+   0 4px 0 0 black;
+   font-size: 10px;
+   
+}
+.modify-btn{
+   padding: 5%; 
+   background-color: rgba(38, 13, 77);
+   /* backdrop-filter: blur(10px); */
+   color:rgb(179, 155, 210);
+   cursor: pointer;
+   box-shadow:   -4px 0 0 0 black,
+   4px 0 0 0 black,
+   0 -4px 0 0 black,
+   0 4px 0 0 black;
+   font-size: 10px;
+}

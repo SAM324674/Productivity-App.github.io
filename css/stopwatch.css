@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url('/images/f2eaab4c93a309358e4abbcc3b5e1b7b.gif');
+    background-image: url('/Stopwatch-Timer/images/f2eaab4c93a309358e4abbcc3b5e1b7b.gif');
     height:100vh;
     width:100%;
     background-position: center;
@@ -20,7 +20,7 @@ body{
 
   
 }
-.timer{
+.container{
     height:300px;
     width:500px;
     border-radius: 1rem;
@@ -54,6 +54,7 @@ body{
     background-color: rgba(38, 13, 77, 0.3);
     backdrop-filter: blur(10px);
     color:rgb(179, 155, 210);
+	cursor: pointer;
     box-shadow:   -10px 0 0 0 black,
     10px 0 0 0 black,
     0 -10px 0 0 black,
@@ -76,7 +77,7 @@ body{
 	--pixel: 0.4rem; /* Pixel size */
 }
 
-.timer {
+.container {
 	background: var(--pixel-bg);
     backdrop-filter: blur(5px); /* Adjust blur radius as needed */
 	box-shadow:
